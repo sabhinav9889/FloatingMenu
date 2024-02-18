@@ -3,12 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
-import Med from './media';
 import Course from './course';
-import Poll from './poll';
-import Peer from './peer';
-import Survery from './survery';
-import Zoom from './zoom';
 const menu = () =>{
     const [nav,setNav] = useState(1);
     return(
